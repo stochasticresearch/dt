@@ -169,9 +169,9 @@ def main():
     engine, matlab_estimators = get_matlab_engine()
     print('Matlab initialized successfully!')
 
-    dataset_list = [('arcene',None) , ('arcene',0.10), ('arcene',0.25), ('arcene',0.50), ('arcene',0.75),
-                    ('dexter',None),  ('dexter',0.10), ('dexter',0.25), ('dexter',0.50), ('dexter',0.75),
-                    ('gisette',None), ('gisette',0.10),('gisette',0.25),('gisette',0.50),('gisette',0.75),
+    dataset_list = [#('arcene',None) , ('arcene',0.10), ('arcene',0.25), ('arcene',0.50), ('arcene',0.75),
+                    #('dexter',None),  ('dexter',0.10), ('dexter',0.25), ('dexter',0.50), ('dexter',0.75),
+                    #('gisette',None), ('gisette',0.10),('gisette',0.25),('gisette',0.50),('gisette',0.75),
                     ('madelon',None), ('madelon',0.10),('madelon',0.25),('madelon',0.50),('madelon',0.75)]
     #X_train, X_test, y_train, y_test = load_dataset('iris')
     for ds in dataset_list:
